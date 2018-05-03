@@ -1,0 +1,11 @@
+CREATE DATABASE projeto;
+
+USE projeto;
+
+
+CREATE TABLE faleconosco (
+Nome varchar(35) NOT NULL,
+Email varchar(35) NOT NULL,
+Telefone varchar(14) NOT NULL,
+Mensagem text(300) NOT NULL
+);
